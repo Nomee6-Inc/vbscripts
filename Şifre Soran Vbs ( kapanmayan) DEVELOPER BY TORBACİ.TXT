@@ -1,0 +1,9 @@
+do
+psw = Inputbox ("Þifre Soran VBS BY TORBACÝ")
+      if psw = "parola" then
+      Msgbox "Doðru"
+      Else
+      Msgbox "Yanlýþ" , vbcritical , "Password"   
+      End if
+loop
+
